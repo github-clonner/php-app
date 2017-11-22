@@ -1,6 +1,6 @@
 # Building Images
 
-This project uses two custom Docker images, hosted at [https://hub.docker.com/r/shippingdocker/](https://hub.docker.com/r/shippingdocker/).
+This project uses two custom Docker images, hosted at [https://hub.docker.com/r/eldorplus/](https://hub.docker.com/r/eldorplus/).
 
 These images are built here ahead of time using the `build` bash script found in this directory.
 
@@ -18,9 +18,9 @@ $ ./build 1.1
 
 ## Explanation
 
-This build script pushes up to the `shippingdocker` repository, so only I can actually push to it.
+This build script pushes up to the `eldorplus` repository, so only I can actually push to it.
 
-However it's useful to see how you might use it to build your own images (simply replace the `shippingdocker` namespace with your own).
+However it's useful to see how you might use it to build your own images (simply replace the `eldorplus` namespace with your own).
 
 Let's see an example, with comments to explain what we're doing:
 
